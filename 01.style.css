@@ -1,0 +1,591 @@
+body {
+    font-size: 16PX;
+    color: #fff;
+    background-color: #61122F;
+    font-family: 'oxygen',sans-serif;
+}
+        /*header*/
+
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;  
+}
+
+.container{
+    margin-left:auto;
+    width: 100%;
+}
+    
+
+#logo-img{
+    background: url(img/1logo.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    bottom: 10px 15px 10px 0;
+    margin-top: 8px;
+}
+
+
+.navbar-brand h1 {
+    font-family: "lora",serif;
+    color:#577c3e;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-left: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+
+.navbar-brand a:hover,.navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand span{
+    vertical-align: middle;
+}
+
+    .navbar-brand>img{
+    display: block;
+}
+
+@media(min-width:768px){
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand
+    {
+    margin-left:15px;
+    }
+}
+
+
+
+
+
+
+
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-top: 8px;
+    margin-right:15px;
+    margin-bottom:8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+
+
+}
+
+.navbar-toggle:focus{
+    outline: 0;
+}
+
+.navbar-toggle .icon-bar{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    
+}
+
+.navbar-toggle .icon-bar + .icon-bar{
+    margin-top: 5px;
+}
+
+@media(min-width:768px){
+    .navbar-toggle{display: none;}
+    #nav-list{
+        margin-top: 7px;
+    }
+}
+
+
+
+
+
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+    border: 1px solid #61122F; 
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -37px;
+    padding: 10px;
+}
+
+
+
+.navbar-nav{
+    margin: 7.5px -15px;}
+
+
+
+
+
+
+.navbar-nav>li>a{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    line-height: 20px;
+}
+
+
+#nav-list a {
+    text-align: center;
+    color: #951C49;
+   
+}
+
+#nav-list a:hover{
+    background-color: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 0px;
+    
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div{
+    text-align: right;
+    color: #557c3e;
+    padding-right: 21px;
+}
+#collapsable-nav a {
+    font-size: 1em;
+    margin: auto;
+}
+
+#collapsable-nav a span {
+    font-size: 1 em;
+    margin-right: 5px;
+}
+
+        /*end header*/
+
+
+ /*call button*/
+ #call-btn>a {
+    font-size: 1.0em;
+    display: block;
+    margin: 0 20px;
+    padding: 3px;
+    border: 2px solid #000;
+    
+    background-color: #f6b319;
+    caret-color:#951C49;
+    position: relative;
+    bottom: 17px;
+    margin: auto;
+    color: #951C49;
+}
+
+.glyphicon {
+    position: relative;
+    top:2px;
+}
+
+#call-btn>a>#no:hover {
+    color: #E7E7E7;
+}
+ /* end call button*/
+
+
+
+/*home page*/
+.container .jumbotron {
+    border: 2px solid #3f0c1f;
+    padding: 0;
+}
+#menu-tile, #specials-tile, #map-tile{
+
+    width:100%;
+    height: 250px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+    box-shadow: 0px 1px 5px 1px #cccccc;
+    
+}
+#menu-tile {
+    background: url(img/menu.jpg) no-repeat;
+    background-position:center ;/*2kama ona*/
+    background-size: cover;
+}
+
+#specials-tile {
+    background: url(img/special.jpg) no-repeat;
+    background-position:center ;
+    background-size: cover;
+}
+
+
+#menu-tile span, #specials-tile span, #map-tile span{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .7;
+   
+}
+        /*end home page*/
+
+    /*footer*/
+    .panel-footer{
+        margin-top:30px;
+        padding-top:35px;
+        padding-bottom:35px;
+        background-color: #222;
+        border-top: 0px;
+    }
+
+    .panel-footer div.row {
+        margin-bottom: 35px;
+    }
+    #hours,#address {
+        line-height: 2em;
+    }
+
+    #hours > span,#address>span {
+       font-size: 1.3em;
+    }
+
+    #address p {
+        color: #557c3e;
+        font-size: .8em;
+        line-height: 1.8em;
+    }
+    #testimonials{
+        font-style: italic;
+    }
+
+    #testimonials p:nth-child(2){
+        margin-top: 25px;
+    }
+        /*END FOOTER*/
+
+
+
+
+        /*MENU PAGE*/
+.category-tile{
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+   
+
+}
+
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  
+
+  
+}
+
+.category-tile:hover{
+    box-shadow: 0px 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div {/*2kakata ekapara style demima*/
+  margin-bottom: 50px;
+}
+    /*END MENU PAGE*/
+
+
+    /* single-category page*/
+
+.menu-item-tile{
+    bottom: 25px;
+}
+
+.menu-item-tile hr {
+    width: 80%;
+}
+.menu-item-tile .menu-item-price{
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+
+} 
+
+.menu-item-tile .menu-item-price span {
+    font-size: .6em;
+}
+.menu-item-photo{
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    max-width: 200px;
+    max-height: 150px;
+    border: #222 solid 7px;
+    border-radius: 15px;
+}
+
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    background-color: #557c3e;
+    text-align: center;
+}
+
+.menu-item-description {
+    padding-right: 30px;
+}
+.menu-item-title{
+    margin: 0 0 10px;
+
+}
+.menu-item-details{
+    font-size: .9em;
+    font-style: italic;
+    text-align: justify;
+}
+/* end single-category page*/
+
+
+
+/*large devices only*/
+@media (min-width:1200px){
+    .jumbotron{
+    background:url(img/lgRest.jpg) no-repeat;
+    height: 675px;
+    background-size: cover;/*mulu pradeshayatama demimata*/
+    }
+    #nav-list{
+        margin-top: 10px;
+    }
+    .navbar-brand h1{
+        font-size: 2.5vw; /*akuru screen size eka wenskarana wita loku kuda we*/
+        }
+}
+/*medium devices only*/
+@media (min-width:992px) and (max-width:1199px){
+    #logo-img{  background: url(img/1logo.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+    display: none;
+
+  
+    }
+    .navbar-brand{
+    padding-top: 2px;
+     height: 88px;
+    padding-left: 0px;      
+    }
+    .navbar-brand h1{
+        margin-top: 18px;
+        
+        font-size: 3; /*akuru screen size eka wenskarana wita loku kuda we*/
+        }
+    .jumbotron{
+    background:url(img/mdRest.jpg) no-repeat;
+    height: 558px;
+    background-size: cover;/*mulu pradeshayatama demimata*/
+    }
+
+} 
+
+
+
+/*small devices only*/
+@media(min-width:768px) and (max-width:991px)
+    {
+    .navbar-brand{
+    padding-top: 19px;
+    height: 88px;
+    padding-left: 0px;   
+    }
+        
+    .navbar-brand h1{
+    margin-top: 6px;
+    
+    font-size: 4vw; /*akuru screen size eka wenskarana wita loku kuda we*/
+    }
+
+    .navbar-brand p{
+    font-size: .7em;
+    margin-top: 13px;
+    }
+    .navbar-brand p img{
+    height: 20px;
+    }
+  
+    .jumbotron{
+    background:url(img/mdRest.jpg) no-repeat;
+    height: 432px;
+    background-size: cover;/*mulu pradeshayatama demimata*/
+    }
+ 
+       
+
+}
+
+
+
+
+
+/*extra small devices only*/
+@media(max-width:767px){
+    .navbar-brand{
+    padding-top: 2px;
+     height: 88px;
+    }
+
+    .navbar-brand h1{
+    padding-top: -1px;
+        
+        
+    font-size: 5.5vw;
+    }
+
+    .navbar-brand p{
+    font-size: .7em;
+    margin-top: 10px;
+    }
+    .navbar-brand p img{
+      
+    height: 20px;
+    }
+
+    #nav-list a {
+    
+        border-top: #951C49 0.5px solid;
+    }
+
+    #nav-list{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+   /* #header-nav{
+        height: 70px;
+    }*/
+   .container .jumbotron{
+    margin-top: 7px;
+    padding: 0;
+    }
+
+    /* #map-tile, #special-tile
+    {
+        width: 360px;
+        margin: 0 auto 15px;
+    }*/
+    
+            /*FOOTER*/
+     .panel-footer section {
+        
+        margin: 30px;
+        text-align:center;
+        
+     }       
+     .panel-footer section:nth-child(3){
+        margin-bottom: 0;
+     }
+
+     .panel-footer section hr {
+        width: 50%; /*bar eka keti kirima*/
+     }
+     /*end footer*/
+
+
+
+
+     
+     
+     /*single-cate page**/
+.menu-item-photo{
+        margin-right: auto;
+    }
+
+
+.menu-item-tile .menu-item-price{
+    text-align: center;
+}
+.menu-item-description{
+    text-align: center;
+}
+
+ }
+/*end single-cate page**/
+
+   
+
+
+
+
+
+
+
+/*super extra small devices onle ,iphone 4 */
+@media (max-width:479px){
+
+ /*   #map-tile, #special-tile
+    {
+        width: 280px;
+        margin: 0 auto 15px;
+    } 
+    
+.navbar-brand h1{
+    padding-top: 5px;
+    font-size: 6vw;
+}*/
+        /*menu-categiry page*/
+.col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+}
+    /*end menu-categiry page*/
+}
